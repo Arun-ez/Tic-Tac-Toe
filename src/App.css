@@ -1,0 +1,14 @@
+
+* {
+  font-family: system-ui;
+}
+
+.App {
+  height: 700px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}

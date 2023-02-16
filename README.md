@@ -1,6 +1,6 @@
 ## Tic Tac Toe
 
-Tic Tac Toe is a very famous two players game, where both the players alternatively give a move either "X" or "O". If all the cells in a row or in a column or any of digonal are same the symbol present there will be treated as winner. If there is no winner then it is a Tie.
+Tic Tac Toe is a very famous two players game, where both the players alternatively give a move either "X" or "O". If all the cells in a row or in a column or any of diagonal are same the symbol present there will be treated as winner. If there is no winner then it is a Tie.
 
 #Tech Stacks used
 

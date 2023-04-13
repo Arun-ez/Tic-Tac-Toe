@@ -2,8 +2,16 @@
     height: 270px;
     width: 270px;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     margin-top: 50px;
+}
+
+button {
+    border: none;
+    padding: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
 }
 
 #board div {
@@ -17,64 +25,64 @@
 }
 
 #a {
-    border-width: 0px 1px 1px 0px;
-    border-color:cornflowerblue;
+    border-width: 0px 2px 2px 0px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #b {
-    border-width: 0px 1px 1px 1px;
-    border-color:cornflowerblue;
+    border-width: 0px 2px 2px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #c {
-    border-width: 0px 0px 1px 1px;
-    border-color:cornflowerblue;
+    border-width: 0px 0px 2px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #d {
-    border-width: 1px 1px 1px 0px;
-    border-color:cornflowerblue;
+    border-width: 2px 2px 2px 0px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #e {
-    border-width: 1px 1px 1px 1px;
-    border-color:cornflowerblue;
+    border-width: 2px 2px 2px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #f {
-    border-width: 1px 0px 1px 1px;
-    border-color:cornflowerblue;
+    border-width: 2px 0px 2px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #g {
-    border-width: 1px 1px 0px 0px;
-    border-color:cornflowerblue;
+    border-width: 2px 2px 0px 0px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #h {
-    border-width: 1px 1px 0px 1px;
-    border-color:cornflowerblue;
+    border-width: 2px 2px 0px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }
 
 #i {
-    border-width: 1px 0px 0px 1px;
-    border-color:cornflowerblue;
+    border-width: 2px 0px 0px 2px;
+    border-color: cornflowerblue;
     border-style: solid;
-    
+
 }

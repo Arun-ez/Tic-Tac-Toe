@@ -23,15 +23,15 @@ export default function Board() {
             [0, 4, 8]
         ];
 
-        for(let checks of validation) {
+        for (let checks of validation) {
             let [x, y, z] = checks;
-            if(cell[x] != null && cell[x] === cell[y] && cell[y] === cell[z]) {
+            if (cell[x] != null && cell[x] === cell[y] && cell[y] === cell[z]) {
                 return cell[x];
             }
         }
 
-        for(let i = 0; i < 9; i++) {
-            if(cell[i] == null) {
+        for (let i = 0; i < 9; i++) {
+            if (cell[i] == null) {
                 return null;
             }
         }
@@ -50,12 +50,13 @@ export default function Board() {
         boardStatus[index] = turn ? "X" : "O";
         setTurn(!turn);
         setCell(boardStatus);
-        
+
     }
 
     return (
-        <div>
-            {!winner ? <h2> Current turn : {turn ? "X" : "O"} </h2> : <div> <h2> {winner != "Tie!" ? "Winner is : " + winner : "It's a " + winner} </h2> <button onClick={reset}> Play Again </button> </div> }
+        <div className='parent_board_box'>
+            <h1> Tic Tac Toe </h1>
+            {!winner ? <h2> Current turn : {turn ? "X" : "O"} </h2> : <div> <h2> {winner != "Tie!" ? "Winner is : " + winner : "It's a " + winner} </h2> <button onClick={reset}> Play Again </button> </div>}
             <div id='board'>
                 <Cell value={cell[0]} clicked={function () { handleMove(0) }} id={"a"} />
                 <Cell value={cell[1]} clicked={function () { handleMove(1) }} id={"b"} />

@@ -1,3 +1,7 @@
+.parent_board_box {
+    margin-top: 150px;
+}
+
 #board {
     height: 270px;
     width: 270px;
@@ -12,6 +16,7 @@ button {
     font-size: 15px;
     font-weight: 500;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #board div {
@@ -26,63 +31,63 @@ button {
 
 #a {
     border-width: 0px 2px 2px 0px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #b {
     border-width: 0px 2px 2px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #c {
     border-width: 0px 0px 2px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #d {
     border-width: 2px 2px 2px 0px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #e {
     border-width: 2px 2px 2px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #f {
     border-width: 2px 0px 2px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #g {
     border-width: 2px 2px 0px 0px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #h {
     border-width: 2px 2px 0px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }
 
 #i {
     border-width: 2px 0px 0px 2px;
-    border-color: cornflowerblue;
+    border-color: rgb(81, 104, 104);
     border-style: solid;
 
 }

@@ -28,11 +28,11 @@ Tic Tac Toe is a very famous two players game, where both the players alternativ
 
 **Managing states and props (Board.jsx and Cell.jsx)**
 
-<p>Taken two states using useState function and the the initilal value of first state is an Empty Array that states Board is Empty and 2nd one is a boolean value True that states current turn is of X, first one used to store the current status of board and second one is for changing the turn.</p>
+<p> Taken two states using useState function and the the initilal value of first state is an Empty Array that states Board is Empty and 2nd one is a boolean value True that states current turn is of X, first one used to store the current status of board and second one is for changing the turn. </p>
 
-Cell.jsx component that meant to be each cell. On clicking each cell i'm sending the value of the cell[index] and a handleMove(can be found in Board.jsx) function as props and within that function i'm checking the turn status, if it is true that means the turn is of "X and i'm updating board state in that index with "X" and changing the turn to false so the next turn will be "O"
+<p> `Cell.jsx` component that meant to be each cell. On clicking each cell i'm sending the value of the cell[index] and a handleMove(can be found in Board.jsx) function as props and within that function i'm checking the turn status, if it is true that means the turn is of `X` and updating board state in that index with `X` and changing the turn to false so the next turn will be `O` </p>
 
-For the solving part, function check(can be in found Board.jsx) that is checking the board status and finding a winner and status of the game.
+<p> For the solving part, function check(can be in found Board.jsx) that is checking the board status and finding a winner and status of the game. </p>
 
 ## Arun Shaw
 - Github : Arun-ez

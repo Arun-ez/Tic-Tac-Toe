@@ -2,14 +2,14 @@
 
 Tic Tac Toe is a very famous two players game, where both the players alternatively give a move either "X" or "O". If all the cells in a row or in a column or any of diagonal are same the symbol present there will be treated as winner. If there is no winner then it is a Tie.
 
-#Tech Stacks used
+# Tech Stacks used
 
 - HTML
 - CSS
 - JavaScripts
 - React
 
-#Overview
+# Overview
 
 <img src="https://arunshaw.vercel.app/static/media/tic_tac_toe_1.7de643cdd1a9aa3a1d84.png"/>
 
@@ -17,11 +17,14 @@ Tic Tac Toe is a very famous two players game, where both the players alternativ
 
 <img src="https://arunshaw.vercel.app/static/media/tic_tac_toe_4.d72c799fd2ad137b3a58.png"/>
 
-#To get started :-
+# To get started
+
+```bash
 - use git clone <repo_link>
 - npm start(on terminal)
+```
 
-#Description of code
+# Description of code
 
 *Managing states and props (Board.jsx and Cell.jsx)*
 

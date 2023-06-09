@@ -2,6 +2,10 @@
 
 Tic Tac Toe is a very famous two players game, where both the players alternatively give a move either "X" or "O". If all the cells in a row or in a column or any of diagonal are same the symbol present there will be treated as winner. If there is no winner then it is a Tie.
 
+## Live
+
+https://tic-tac-toe-neon-six.vercel.app/
+
 # Tech Stacks used
 
 - HTML
@@ -11,11 +15,11 @@ Tic Tac Toe is a very famous two players game, where both the players alternativ
 
 # Overview
 
-<img src="https://arunshaw.vercel.app/static/media/tic_tac_toe_1.7de643cdd1a9aa3a1d84.png"/>
+<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_2.png"/>
 
-<img src="https://arunshaw.vercel.app/static/media/tic_tac_toe_3.5d3cb3d885197311dbfc.png"/>
+<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_3.png"/>
 
-<img src="https://arunshaw.vercel.app/static/media/tic_tac_toe_4.d72c799fd2ad137b3a58.png"/>
+<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_4.png"/>
 
 # To get started
 

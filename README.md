@@ -4,7 +4,7 @@ Tic Tac Toe is a very famous two players game, where both the players alternativ
 
 ## Live
 
-https://tic-tac-toe-neon-six.vercel.app/
+https://toetick.vercel.app/
 
 # Tech Stacks used
 
@@ -15,11 +15,11 @@ https://tic-tac-toe-neon-six.vercel.app/
 
 # Overview
 
-<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_2.png"/>
+<img src="https://toetick.vercel.app/thumbs/tic_tac_toe_2.png"/>
 
-<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_3.png"/>
+<img src="https://toetick.vercel.app/thumbs/tic_tac_toe_3.png"/>
 
-<img src="https://tic-tac-toe-neon-six.vercel.app/thumbs/tic_tac_toe_4.png"/>
+<img src="https://toetick.vercel.app/thumbs/tic_tac_toe_4.png"/>
 
 # To get started
 
